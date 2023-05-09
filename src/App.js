@@ -1,11 +1,19 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
-import Topbar from './components/Topbar'
+import Navbar from './components/Navbar'
+import "./App.css"
+
+
 const App = () => {
   return (
-    <div>
+    <div className="flex">
       <Sidebar/>
-      <Topbar/>
+      <main className="w-[85%]">
+        <Navbar/>
+        <videocontainer>
+          video cards
+        </videocontainer>
+      </main>
     </div>
   )
 }
