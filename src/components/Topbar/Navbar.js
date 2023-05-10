@@ -1,6 +1,6 @@
 
                             //  Navbar is made by Rajmal Varma ...................
-
+import './navbar.css'
 import { Search } from '@mui/icons-material'
 import {SearchOutlinedIcon} from '@mui/icons-material/SearchOutlinedIcon'
 import {AccountCircleOutlinedIcon} from '@mui/icons-material/AccountCircleOutlinedIcon'
@@ -17,7 +17,7 @@ const Navbar = () => {
     <Container>
     <Wrapper>
       <Search>
-    <input type="text" placeholder=' Search for videos'/>
+    <input type="" placeholder=' Search for videos'/>
    <SearchOutlinedIcon/>
       </Search>
       <button>
