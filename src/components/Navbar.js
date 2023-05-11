@@ -2,20 +2,15 @@
                             //  Navbar is made by Rajmal Varma ...................
 import './navbar.css'
 import { Search } from '@mui/icons-material'
-import {SearchOutlinedIcon} from '@mui/icons-material/SearchOutlinedIcon'
-import {AccountCircleOutlinedIcon} from '@mui/icons-material/AccountCircleOutlinedIcon'
-import styled from 'styled-components'
-import { Container } from '@mui/material'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import React from 'react'
-const Wrapper = styled.div`
-   height:30px,
-   background-color: black
-`
+
 
 const Navbar = () => {
   return (
-    <Container>
-    <Wrapper>
+    <>
+    <div>
       <Search>
     <input type="" placeholder=' Search for videos'/>
    <SearchOutlinedIcon/>
@@ -24,8 +19,8 @@ const Navbar = () => {
         <AccountCircleOutlinedIcon/>
         Sign In
       </button>
-    </Wrapper>
-    </Container>
+    </div>
+    </>
   )
 }
 
