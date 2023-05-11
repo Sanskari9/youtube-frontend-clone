@@ -2,8 +2,8 @@
                             //  Navbar is made by Rajmal Varma ...................
 import './navbar.css'
 import { Search } from '@mui/icons-material'
-import {SearchOutlinedIcon} from '@mui/icons-material/SearchOutlinedIcon'
-import {AccountCircleOutlinedIcon} from '@mui/icons-material/AccountCircleOutlinedIcon'
+import {SearchOutlinedIcon} from '@mui/icons-material/SearchOutlined'
+import {AccountCircleOutlinedIcon} from '@mui/icons-material/AccountCi'
 import styled from 'styled-components'
 import { Container } from '@mui/material'
 import React from 'react'
