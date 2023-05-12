@@ -1,4 +1,7 @@
 
+                  /* Css code  is made by Rajmal Varma  */
+
+ 
 .container{
     position: sticky;
     top: 0;
@@ -39,10 +42,6 @@
   padding: 0px 20px;
   position: relative;
 }
-Input{
-    border: none;
-  background-color: transparent;
-  outline: none;
 
 .search{
   width: 40%;
@@ -73,5 +72,4 @@ Input{
   align-items: center;
   gap: 5px;
 
-}
 }
