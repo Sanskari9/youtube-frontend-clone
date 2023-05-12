@@ -1,33 +1,27 @@
 
                             //  Navbar is made by Rajmal Varma ...................
-import './navbar.css'
-import { Search } from '@mui/icons-material'
-<<<<<<< HEAD:src/components/Topbar/Navbar.js
-import {SearchOutlinedIcon} from '@mui/icons-material/SearchOutlinedIcon'
-import {AccountCircleOutlinedIcon} from '@mui/icons-material/AccountCircleOutlined'
-import styled from 'styled-components'
-import { Container } from '@mui/material'
-=======
+import React from 'react'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
->>>>>>> 7a07678cb6be04314411c3a7af334b7ab47a37ba:src/components/Navbar.js
-import React from 'react'
+import { Link } from 'react-router-dom';
+import "./Navbar.css"
 
 
 const Navbar = () => {
   return (
-    <>
-    <div>
-      <Search>
-    <input type="" placeholder=' Search for videos'/>
+    <div className="sticky flex items-center justify-end top-0 h-[56px] py-0 px-4 bg-[#202020]">
+      <div className="search">
+    <input type="text" placeholder= "Search"/>
    <SearchOutlinedIcon/>
-      </Search>
-      <button>
+      </div>
+      
+      <Link to="signin">
+      <button className="btn">
         <AccountCircleOutlinedIcon/>
         Sign In
       </button>
+      </Link>
     </div>
-    </>
   )
 }
 
