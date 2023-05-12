@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 .container{
     position: sticky;
@@ -44,7 +43,7 @@ Input{
     border: none;
   background-color: transparent;
   outline: none;
-=======
+
 .search{
   width: 40%;
   margin: auto;
@@ -73,5 +72,6 @@ Input{
   display: flex;
   align-items: center;
   gap: 5px;
->>>>>>> a21ad610ce33fc9fe754de93be0acf1ce8c5f1f9
+
+}
 }
