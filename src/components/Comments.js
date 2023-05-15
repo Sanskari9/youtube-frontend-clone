@@ -1,4 +1,4 @@
-// coded by santosh
+// coded by rajmal
 import React from 'react'
 import Comment from './Comment'
 
