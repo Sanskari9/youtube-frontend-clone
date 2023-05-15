@@ -1,3 +1,48 @@
+
+                  /* Css code  is made by Rajmal Varma  */
+
+ 
+.container{
+    position: sticky;
+    top: 0;
+   
+}
+
+.Search{
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.button{
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.subcontainer{
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0px 20px;
+  position: relative;
+}
+
 .search{
   width: 40%;
   margin: auto;
@@ -26,4 +71,5 @@
   display: flex;
   align-items: center;
   gap: 5px;
+
 }

@@ -1,4 +1,4 @@
-// coded by rajmal
+//coded by rajmal
 import React from 'react'
 import "./SignIn.css"
 

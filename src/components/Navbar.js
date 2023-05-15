@@ -1,10 +1,12 @@
 
                             //  Navbar is made by Rajmal Varma ...................
+
 import React from 'react'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import { Link } from 'react-router-dom';
-import "./Navbar.css"
+import "./navbar.css"
+
 
 
 const Navbar = () => {
